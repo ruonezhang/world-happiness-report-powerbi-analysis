@@ -1,7 +1,6 @@
 # World Happiness Report Analysis
 
-An end-to-end data analysis project exploring global happiness patterns using Python and Power BI.  
-The project combines exploratory analysis, data cleaning, star schema modeling, DAX measures, and an interactive Power BI dashboard designed for country-level and regional insight.
+An end-to-end BI project combining Python and Power BI to explore global happiness patterns across countries and regions. The project includes data cleaning, ETL, star schema modeling, DAX development, and the creation of an interactive multi-page Power BI report.
 
 ## Highlights
 - Built an end-to-end BI project from raw World Happiness Report datasets.
@@ -35,16 +34,16 @@ world-happiness-report-powerbi-analysis/
     ├── data_model.png
     ├── tooltip_example.png
     ├── correlation_matrix.png
-    └── happiness_score_distribution_2021
+    └── happiness_score_distribution_2021.png
 ```
 
 ## How to Use
 
 1. Open [world_happiness_report_analysis](notebooks/world_happiness_report_analysis.ipynb) and [data_prep_for_modeling](notebooks/data_prep_for_modeling.ipynb) notebooks to review the analysis and data preparation process.
    To reproduce the codes, open them in Google Colab by this [link](https://colab.research.google.com/github/ruonezhang/world-happiness-report-powerbi-analysis/blob/main/notebooks/world_happiness_report_analysis.ipynb) for EDA analysis and this [link](https://colab.research.google.com/github/ruonezhang/world-happiness-report-powerbi-analysis/blob/main/notebooks/data_prep_for_modeling.ipynb) for data modeling preparation. Then click on "Run all". An automatic script was implemented, thus no need to download any data file. 
-3. Open [world_happiness_report.pbix](powerbi/world_happiness_report.pbix) in Power BI Desktop.
-4. Review the data model, DAX measures, dashboard pages, drill-through page, and tooltip pages.
-5. Use slicers and the factor selector to explore countries, regions, years, and happiness drivers interactively.
+2. Open [world_happiness_report.pbix](powerbi/world_happiness_report.pbix) in Power BI Desktop.
+3. Review the data model, DAX measures, dashboard pages, drill-through page, and tooltip pages.
+4. Use slicers and the factor selector to explore countries, regions, years, and happiness drivers interactively.
 
 ## Project Overview
 
@@ -52,7 +51,7 @@ This project analyzes the World Happiness Report dataset to understand how happi
 
 The work includes two main parts:
 
-- **Python analysis:** exploratory data analysis using the 2021 World Happiness Report dataset, supported by the 2005-2020 panel dataset for time-based and emotional indicator analysis. In addition, Python was also used to prepare data for modeling in PowerBI.
+- **Python analysis:** exploratory data analysis using the 2021 World Happiness Report dataset, supported by the 2005-2020 panel dataset for time-based and emotional indicator analysis. In addition, Python was also used to prepare data for modeling in Power BI.
 - **Power BI dashboard:** a full interactive report built from a cleaned 2005-2021 fact table, modeled with a star schema and supported by 37 DAX measures.
 
 ## Business Questions
