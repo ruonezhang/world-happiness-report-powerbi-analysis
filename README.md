@@ -3,6 +3,49 @@
 An end-to-end data analysis project exploring global happiness patterns using Python and Power BI.  
 The project combines exploratory analysis, data cleaning, star schema modeling, DAX measures, and an interactive Power BI dashboard designed for country-level and regional insight.
 
+## High lights
+- Built an end-to-end BI project from raw World Happiness Report datasets.
+- Cleaned and reshaped two inconsistent datasets into a 2005-2021 fact table.
+- Designed a star schema with country and year dimensions.
+- Created 37 DAX measures organized by analytical purpose.
+- Built a Power BI dashboard with drill-through, custom tooltips, dynamic factor selection, and interactive filtering.
+
+## Project Structure
+
+```text
+
+└── World-Happiness-Report-Analysis/
+    ├── README.md
+    ├── original_data/
+    │   ├── world-happiness-report.csv
+    │   └── world-happiness-report-2021.csv
+    ├── processed_data_for_modeling/
+    │   ├── fact_happiness.csv
+    │   └── dim_country.csv
+    ├── notebooks/
+    │   ├── world_happiness_report_analysis.ipynb
+    │   └── data_prep_for_modeling.ipynb
+    ├── powerbi/
+    │   └── world_happiness_report.pbix
+    └── screenshots/
+        ├── Overview.png
+        ├── Happiness Evolution.png
+        ├── Factor Anlysis.png
+        ├── Drill-through.png
+        ├── Data Model.png
+        ├── Tooltip example.png
+        └── correlation_matrix.png
+```
+
+## How to Use
+
+1. Open the Python notebooks to review the analysis and data preparation process. To reproduce the code, use this [![button](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ruonezhang/world-happiness-report-powerbi-analysis
+/blob/main/world_happiness_report_analysis.ipynb) to open the EDA analysis and this [![button](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ruonezhang/world-happiness-report-powerbi-analysis
+/blob/main/data_prep_for_modeling.ipynb) to open the data prepration for modeling. Original data will be downloaded automatically. 
+2. Open `world_happiness_report.pbix` in Power BI Desktop.
+3. Review the data model, DAX measures, dashboard pages, drill-through page, and tooltip pages.
+4. Use slicers and the factor selector to explore countries, regions, years, and happiness drivers interactively.
+
 ## Project Overview
 
 This project analyzes the World Happiness Report dataset to understand how happiness varies across countries, regions, and time, and which factors are most strongly associated with national happiness.
@@ -229,40 +272,6 @@ Each tooltip provides metric meaning, scale explanation, and interpretation guid
 - **Western Europe and North America are among the happiest regions**, while **Sub-Saharan Africa has the lowest average happiness levels**.
 - **Global happiness decreased from 2005 to 2021**, and also declined from 2020 to 2021.
 - **Central and Eastern Europe showed the strongest regional improvement from 2005 to 2021**, while **Latin America and the Caribbean experienced the largest decline**.
-
-## Project Structure
-
-```text
-
-└── World-Happiness-Report-Analysis/
-    ├── README.md
-    ├── original_data/
-    │   ├── world-happiness-report.csv
-    │   └── world-happiness-report-2021.csv
-    ├── processed_data_for_modeling/
-    │   ├── fact_happiness.csv
-    │   └── dim_country.csv
-    ├── notebooks/
-    │   ├── world_happiness_report_analysis.ipynb
-    │   └── data_prep_for_modeling.ipynb
-    ├── powerbi/
-    │   └── world_happiness_report.pbix
-    └── screenshots/
-        ├── Overview.png
-        ├── Happiness Evolution.png
-        ├── Factor Anlysis.png
-        ├── Drill-through.png
-        ├── Data Model.png
-        ├── Tooltip example.png
-        └── correlation_matrix.png
-```
-
-## How to Use
-
-1. Open the Python notebooks to review the analysis and data preparation process.
-2. Open `world_happiness_report.pbix` in Power BI Desktop.
-3. Review the data model, DAX measures, dashboard pages, drill-through page, and tooltip pages.
-4. Use slicers and the factor selector to explore countries, regions, years, and happiness drivers interactively.
 
 ## Limitations
 
