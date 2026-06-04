@@ -39,7 +39,7 @@ The project combines exploratory analysis, data cleaning, star schema modeling, 
 
 ## How to Use
 
-1. Open the Python notebooks to review the analysis and data preparation process. To reproduce the codes, open the notebooks in Google Colab and click on "run all"
+1. Open [world_happiness_report_analysis](notebooks/world_happiness_report_analysis.ipynb) and [data_prep_for_modeling](notebooks/data_prep_for_modeling.ipynb) notebooks to review the analysis and data preparation process. To reproduce the codes, open them in Google Colab and click on "Run all". An automatic script was implemented, thus no need to download any data file. 
 2. Open `world_happiness_report.pbix` in Power BI Desktop.
 3. Review the data model, DAX measures, dashboard pages, drill-through page, and tooltip pages.
 4. Use slicers and the factor selector to explore countries, regions, years, and happiness drivers interactively.
