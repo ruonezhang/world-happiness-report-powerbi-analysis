@@ -39,9 +39,7 @@ The project combines exploratory analysis, data cleaning, star schema modeling, 
 
 ## How to Use
 
-1. Open the Python notebooks to review the analysis and data preparation process. To reproduce the code, use this [![button](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ruonezhang/world-happiness-report-powerbi-analysis
-/blob/main/world_happiness_report_analysis.ipynb) to open the EDA analysis and this [![button](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ruonezhang/world-happiness-report-powerbi-analysis
-/blob/main/data_prep_for_modeling.ipynb) to open the data prepration for modeling. Original data will be downloaded automatically. 
+1. Open the Python notebooks to review the analysis and data preparation process. To reproduce the code, use this [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ruonezhang/world-happiness-report-powerbi-analysis/blob/main/world_happiness_report_analysis.ipynb) to open the EDA analysis and this [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ruonezhang/world-happiness-report-powerbi-analysis/blob/main/data_prep_for_modeling.ipynb) to open the data prepration for modeling. Original data will be downloaded automatically. 
 2. Open `world_happiness_report.pbix` in Power BI Desktop.
 3. Review the data model, DAX measures, dashboard pages, drill-through page, and tooltip pages.
 4. Use slicers and the factor selector to explore countries, regions, years, and happiness drivers interactively.
