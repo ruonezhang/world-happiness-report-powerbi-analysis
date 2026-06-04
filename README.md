@@ -14,27 +14,28 @@ The project combines exploratory analysis, data cleaning, star schema modeling, 
 
 ```text
 
-└── World-Happiness-Report-Analysis/
-    ├── README.md
-    ├── original_data/
-    │   ├── world-happiness-report.csv
-    │   └── world-happiness-report-2021.csv
-    ├── processed_data_for_modeling/
-    │   ├── fact_happiness.csv
-    │   └── dim_country.csv
-    ├── notebooks/
-    │   ├── world_happiness_report_analysis.ipynb
-    │   └── data_prep_for_modeling.ipynb
-    ├── powerbi/
-    │   └── world_happiness_report.pbix
-    └── screenshots/
-        ├── Overview.png
-        ├── Happiness Evolution.png
-        ├── Factor Anlysis.png
-        ├── Drill-through.png
-        ├── Data Model.png
-        ├── Tooltip example.png
-        └── correlation_matrix.png
+world-happiness-report-powerbi-analysis/
+├── README.md
+├── original_data/
+│   ├── world-happiness-report.csv
+│   └── world-happiness-report-2021.csv
+├── processed_data_for_modeling/
+│   ├── fact_happiness.csv
+│   └── dim_country.csv
+├── notebooks/
+│   ├── world_happiness_report_analysis.ipynb
+│   └── data_prep_for_modeling.ipynb
+├── powerbi/
+│   └── world_happiness_report.pbix
+└── screenshots/
+    ├── overview.png
+    ├── happiness_evolution.png
+    ├── factor_analysis.png
+    ├── drill-through.png
+    ├── data_model.png
+    ├── tooltip_example.png
+    ├── correlation_matrix.png
+    └── happiness_score_distribution_2021
 ```
 
 ## How to Use
