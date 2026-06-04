@@ -1,6 +1,6 @@
 # World Happiness Report Analysis
 
-An end-to-end BI project combining Python and Power BI to explore global happiness patterns across countries and regions. The project includes data cleaning, ETL, star schema modeling, DAX development, and the creation of an interactive multi-page Power BI report.
+An end-to-end BI project combining Python and Power BI to explore global happiness patterns across countries and regions. The project includes data cleaning, EDA, ETL, star schema modeling, DAX development, and the creation of an interactive multi-page Power BI report.
 
 ## Highlights
 - Built an end-to-end BI project from raw World Happiness Report datasets.
