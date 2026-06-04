@@ -103,8 +103,8 @@ Main analysis steps:
 - Explored correlations between happiness and explanatory factors.
 - Used the panel dataset to examine long-term trends and emotional indicators such as positive and negative affect.
 
-![Dataviz Example: Global Happiness Score Distribution 2021](screenshots/happiness_score_distribution_2021)
-![Dataviz Example: Correlation Matrix](screenshots/correlation_matrix)
+![Dataviz Example: Global Happiness Score Distribution 2021](screenshots/happiness_score_distribution_2021.png)
+![Dataviz Example: Correlation Matrix](screenshots/correlation_matrix.png)
 
 Key Python findings:
 
@@ -151,7 +151,7 @@ Relationships:
 
 The model also hides raw numeric columns and uses measures to guide report users toward consistent calculations.
 
-![Data Model](screenshots/data_model)
+![Data Model](screenshots/data_model.png)
 
 ## DAX Measures
 
