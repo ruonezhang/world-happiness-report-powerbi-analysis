@@ -240,7 +240,7 @@ Suggested repository structure:
 World-Happiness-Report-Analysis/
 |-- README.md
 |-- notebooks/
-|   |-- World_Happiness_Report_Project_Group.ipynb
+|   |-- World_Happiness_Report_Project.ipynb
 |   `-- WHR Prep for PowerBI.ipynb
 |-- data/
 |   |-- world-happiness-report.csv
