@@ -3,7 +3,7 @@
 An end-to-end data analysis project exploring global happiness patterns using Python and Power BI.  
 The project combines exploratory analysis, data cleaning, star schema modeling, DAX measures, and an interactive Power BI dashboard designed for country-level and regional insight.
 
-## High lights
+## Highlights
 - Built an end-to-end BI project from raw World Happiness Report datasets.
 - Cleaned and reshaped two inconsistent datasets into a 2005-2021 fact table.
 - Designed a star schema with country and year dimensions.
@@ -41,7 +41,7 @@ The project combines exploratory analysis, data cleaning, star schema modeling, 
 
 1. Open [world_happiness_report_analysis](notebooks/world_happiness_report_analysis.ipynb) and [data_prep_for_modeling](notebooks/data_prep_for_modeling.ipynb) notebooks to review the analysis and data preparation process.
    To reproduce the codes, open them in Google Colab by this [link](https://colab.research.google.com/github/ruonezhang/world-happiness-report-powerbi-analysis/blob/main/notebooks/world_happiness_report_analysis.ipynb) for EDA analysis and this [link](https://colab.research.google.com/github/ruonezhang/world-happiness-report-powerbi-analysis/blob/main/notebooks/data_prep_for_modeling.ipynb) for data modeling preparation. Then click on "Run all". An automatic script was implemented, thus no need to download any data file. 
-3. Open [world_happiness_report.pbix](notebooks/world_happiness_report.pbix) in Power BI Desktop.
+3. Open [world_happiness_report.pbix](powerbi/world_happiness_report.pbix) in Power BI Desktop.
 4. Review the data model, DAX measures, dashboard pages, drill-through page, and tooltip pages.
 5. Use slicers and the factor selector to explore countries, regions, years, and happiness drivers interactively.
 
@@ -68,8 +68,8 @@ Data source: [World Happiness Report 2021 on Kaggle](https://www.kaggle.com/data
 
 The project uses two raw datasets:
 
-- `world-happiness-report-2021.csv`: country-level 2021 happiness indicators.
-- `world-happiness-report.csv`: panel dataset covering happiness indicators from 2005 to 2020.
+- [world-happiness-report-2021.csv](original_data/world-happiness-report-2021.csv): country-level 2021 happiness indicators.
+- [world-happiness-report.csv](original_data/world-happiness-report.csv): panel dataset covering happiness indicators from 2005 to 2020.
 
 For the Power BI model, both datasets were cleaned, aligned, and combined into a single analytical table covering:
 
@@ -101,6 +101,9 @@ Main analysis steps:
 - Analyzed regional and continent-level happiness patterns.
 - Explored correlations between happiness and explanatory factors.
 - Used the panel dataset to examine long-term trends and emotional indicators such as positive and negative affect.
+
+![Dataviz Example: Global Happiness Score Distribution](screenshots/happiness_distribution)
+![Dataviz Example: Correlation Matrix](screenshots/correlation_matrix)
 
 Key Python findings:
 
@@ -146,6 +149,8 @@ Relationships:
 - Single-direction filtering for a clean semantic model.
 
 The model also hides raw numeric columns and uses measures to guide report users toward consistent calculations.
+
+![Data Model](screenshots/data_model)
 
 ## DAX Measures
 
@@ -207,7 +212,7 @@ It includes:
 - Regional happiness change comparison.
 - Geographic map of change status.
 
-![Happiness Evolution](screenshots/Happiness%20Evolution.png)
+![Happiness Evolution](screenshots/happiness_evolution.png)
 
 ### Page 3: Factor Analysis
 
@@ -223,7 +228,7 @@ It includes:
 
 The dynamic factor setup allows one group of visuals to switch between GDP, social support, life expectancy, freedom, generosity, corruption perception, positive affect, and negative affect.
 
-![Factor Analysis](screenshots/Factor%20Anlysis.png)
+![Factor Analysis](screenshots/factor_analysis.png)
 
 ### Country Drill-Through Page
 
@@ -244,7 +249,7 @@ It includes:
 - Negative affect.
 - Country happiness trend over time.
 
-![Country Drill-through](screenshots/Drill-through.png)
+![Country Drill-through](screenshots/drill-through.png)
 
 ### Custom Tooltip Pages
 
@@ -262,7 +267,7 @@ The report includes 9 custom tooltip pages explaining key metrics:
 
 Each tooltip provides metric meaning, scale explanation, and interpretation guidance without cluttering the main dashboard.
 
-![Tooltip Example](screenshots/Tooltip%20example%20.png)
+![Tooltip Example](screenshots/tooltip_example.png)
 
 ## Key Insights
 
