@@ -275,14 +275,3 @@ Each tooltip provides metric meaning, scale explanation, and interpretation guid
 
 The main limitation is related to the 2005-2020 panel data coverage.  
 Some countries do not have complete observations for both 2005 and 2021, so the sample size on the Happiness Evolution page is smaller when calculating long-term change. To avoid creating artificial results, missing values were not imputed for unavailable indicators.
-
-## What This Project Demonstrates
-
-This project demonstrates my ability to:
-
-- Clean and reshape inconsistent raw datasets for BI modeling.
-- Define an analytical grain and build a clean fact table.
-- Design a star schema in Power BI.
-- Create organized DAX measures for KPIs, rankings, trends, dynamic visuals, and display logic.
-- Build an interactive dashboard with drill-through, custom tooltips, slicers, and dynamic measures.
-- Translate raw data into a clear analytical story for business users.
